@@ -4,7 +4,25 @@ button {
 }
 
 body {
-    background-image: url(../images/chevron-hand-drawn-pattern-with-continuous-stripes-triangle-background-png_94613.jpg);
-    background-repeat: repeat;
+    background-image: url(../images/2640074-autumn-4k-wallpaper-image-free-download.jpg);
+    background-repeat: round;
     background-size: 100%;
+}
+
+h1 {
+    font-family: 'Patua One', cursive;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.tFrame {
+    font-family: 'Patua One', cursive;
+    text-align: center;
+}
+
+.sBtn {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
 }
