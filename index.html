@@ -17,6 +17,17 @@
     <div class="header text-center bg-info text-white">
         <h1>Daily Planner</h1>
         <h3>Make Time Mangement Simple!</h3>
+        <p id="date">
+            <script id="date">
+                var today = new Date();
+                var dd = String(today.getDate()).padStart(2, '0');
+                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                var yyyy = today.getFullYear();
+
+                today = mm + '/' + dd + '/' + yyyy;
+                document.write(today);
+            </script>
+        </p>
         <hr>
     </div>
     <div class="container">

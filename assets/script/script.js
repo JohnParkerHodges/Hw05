@@ -2,8 +2,21 @@ let mainArea = document.getElementById("input-group");
 let userText = document.getElementById("#userText");
 let saveBtn = document.getElementById("#saveBtn");
 
-let textLocal = []
-    //function for saving value of row 9
+
+
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+document.write(today);
+
+
+
+
+
+//function for saving value of row 9
 $('.sBtn').on("click", function() {
     let temp = $(this.value).val()
     localStorage.setItem(this.value, temp);
